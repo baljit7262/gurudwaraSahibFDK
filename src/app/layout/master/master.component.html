@@ -1,0 +1,134 @@
+<div class="uppernav">
+    <div class="container-fluid">
+        <div class="contacts">
+            <div class="fateh">
+                WAHEGURU JI KA KHALSA WAHEGURU JI KI FATEH
+            </div>
+            <div class="info">
+                <div class="mail">
+                    <i class="fas fa-envelope mr-2"></i>
+                   <span> fateh1984@gmail.com</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="over">
+<!--Navbar-->
+<mdb-navbar SideClass="navbar navbar-expand-lg bg-white indigo"  [containerInside]="false">
+
+  <!-- Navbar brand -->
+  <mdb-navbar-brand>
+      <div class="logo">
+    <img src="../../../assets/images/Group 1.png" alt="logo">
+</div>
+</mdb-navbar-brand>
+
+  <!-- Collapsible content -->
+  <links>
+
+      <!-- Links -->
+      <ul class="navbar-nav m-auto">
+          <li class="nav-item active">
+              <a class="nav-link waves-light" mdbWavesEffect routerLink="/dashboard" routerLinkActive="active">Home</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link waves-light" mdbWavesEffect routerLink="/gallery" routerLinkActive="active">Gallery</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link waves-light" mdbWavesEffect routerLink="/about" routerLinkActive="active">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link waves-light" mdbWavesEffect routerLink="/contact" routerLinkActive="active">Contact</a>
+        </li>
+          <!-- Dropdown -->
+          <!-- <li class="nav-item dropdown" dropdown>
+              <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
+              Basic dropdown<span class="caret"></span></a>
+              <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
+                  <a class="dropdown-item waves-light" mdbWavesEffect href="#">Action</a>
+                  <a class="dropdown-item waves-light" mdbWavesEffect href="#">Another action</a>
+                  <a class="dropdown-item waves-light" mdbWavesEffect href="#">Something else here</a>
+                  <div class="divider dropdown-divider"></div>
+                  <a class="dropdown-item waves-light" mdbWavesEffect href="#">Separated link</a>
+              </div>
+          </li> -->
+
+      </ul>
+      <!-- Links -->
+
+<!-- Search form -->
+<form class="form-inline waves-light" mdbWavesEffect>
+    <button>DONATE</button>
+</form>
+  </links>
+  <!-- Collapsible content -->
+
+</mdb-navbar>
+<!--/.Navbar-->
+<div class="content">
+  <router-outlet></router-outlet>
+</div>
+<footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-4 side-border">
+          <div>
+          <div class="logo-footer">
+            <img src="../../../assets/images/footer1-.png" alt="logo">
+          </div>
+          <div class="location">
+            Ajit Nager Street No.9 University Road<br>
+            Near Guru Gobind Singh Medical Hospital<br>
+             Faridkot (Punjab)
+          </div>
+          <div class="location">
+            <div class="icon"><i class="fas fa-phone-alt mr-2"></i></div>
+            <div>9815856313, 9592821693</div>
+          </div>
+          <div class="location">
+            <div class="icon"><i class="fas fa-envelope mr-2"></i></div>
+            <div>fateh1984@gmail.com</div>
+          </div>
+        </div>
+        </div>
+        <div class="col-4 side-border">
+          <div class="inner-padding">
+          <div class="links-header">
+            <hr><span>Links</span>
+          </div>
+          <div class="link-item">Home</div>
+          <div class="link-item">Sewa</div>
+          <div class="link-item">About Us</div>
+          <div class="link-item">Contact</div>
+        </div>
+        </div>
+        <div class="col-4">
+          <div class="inner-padding">
+            <div class="links-header">
+              <hr><span>Gallery</span>
+            </div>
+            <div class="gallery">
+              <div class="box">
+                <img src="../../../assets/images/timing.jpg" alt="sewa">
+              </div>
+              <div class="box">
+                <img src="../../../assets/images/timing.jpg" alt="sewa">
+              </div>
+            </div>
+            <div class="gallery mt-2">
+              <div class="box">
+                <img src="../../../assets/images/timing.jpg" alt="sewa">
+              </div>
+              <div class="box">
+                <img src="../../../assets/images/timing.jpg" alt="sewa">
+              </div>
+            </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  
+  </footer>
+</div>

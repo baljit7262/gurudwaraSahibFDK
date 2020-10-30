@@ -1,0 +1,30 @@
+<div class="header-bar">   
+    <div class="khanda">
+        <div class="gurbani text-center">
+    <h1>Awie imlu gurisK Awie imlu </h1>
+    <h1>qU myry gurU ky ipAwr</h1>
+    </div>
+    </div>
+           
+         <div class="cantact-text">
+        <div class="header-section pl-3 pb-4">
+            <div class="header">
+                <hr><div class="title">Movements</div>
+            </div>
+            <div class="sub-header">Gallery</div>
+            <div class="header-detail mb-4">
+                Our main goal is to do the sewa by following<br>
+                 the path of Shiri Guru Granth Sahib JI
+            </div>
+        </div>
+    </div>
+    </div>
+<div class="gallery">
+    <div class="container">
+        <div class="row">
+            <div class="col-3" *ngFor="let image of _albums; let i=index">
+                    <img [src]="image.thumb" class="w-100" (click)="open(i)" />
+            </div>
+        </div>
+    </div>
+</div>

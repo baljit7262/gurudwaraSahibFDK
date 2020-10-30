@@ -1,0 +1,71 @@
+.contact-cards{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.contact-box{
+    box-shadow: 0 2px 48px 0 rgba(0,0,0,.06);
+    background: #fff;
+    text-align: center;
+    padding: 30px 20px;
+    position: relative;
+    z-index: 1;
+    border-radius: 20px 5px 20px 5px;
+    margin-bottom: 40px;
+    transition: all .3s ease 0s;
+    color: #18407c;
+    i {
+        margin-right: 10px;
+        font-size: 15px;
+    }
+    h4 {
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+    p{
+        font-size: 14px;
+        line-height: 1.8;
+        color: #6f8ba4;
+        margin-bottom: 0px;
+    }
+    &:hover {
+        background-color: #18407c;  
+        color: white;
+        p{
+            color: white;  
+        }
+    }
+}
+
+.get-in-touch  {
+    h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+    p{
+        margin-top: 0;
+        margin-bottom: 0;
+        color: #6f8ba4;
+        font-size: 14px;
+        line-height: 1.8;
+    }
+}
+
+.btn{
+    color: #18407c;
+    z-index: 1;
+    overflow: hidden;
+    border: 1px solid #18407c;
+    border-radius: 35px;
+    padding: 11px 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    background-color: transparent;
+    margin-top: 10px;
+    &:hover {
+        background-color: #18407c; 
+        color: white;
+    }
+}

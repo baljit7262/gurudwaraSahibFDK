@@ -1,0 +1,20 @@
+.about-section{
+    margin: 150px 0px;
+    p{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.5;
+    }
+}
+.img-bg{
+    height: 370px;
+    width: 100%;
+    background-image: url("../../../assets/images/sikh.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.header hr { 
+    width: 71px!important;
+}

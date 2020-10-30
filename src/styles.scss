@@ -1,0 +1,139 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%;
+    background-color: transparent; 
+    font-family: "PT Serif",Arial,Helvetica,sans-serif;
+  line-height: 1; }
+  @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+  @import "../node_modules/@fortawesome/fontawesome-free/css/all.css";
+  @import "../node_modules/ngx-lightbox/lightbox.css";
+  @import "../node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.carousel.min.css";
+  @import "../node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.theme.default.min.css";
+  // @import "../node_modules/@angular/material/prebuilt-themes/indigo-pink.css";
+  // @import "~@ng-select/ng-select/themes/default.theme.css";
+  // @import '~bootstrap/scss/bootstrap';
+
+  @font-face {
+    font-family: 'gurbaniakharheavyregular';
+    src: url('../src/gurbaniakharheavy-webfont.woff') format('woff'),
+        url('../src/gurbaniakharheavy-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.gurbani {
+  font-family: 'gurbaniakharheavyregular';
+}
+
+  $primarycolor: #18407C;
+$keseri: #F8BC00;
+
+  .navbar .navbar-nav .nav-item .nav-link {
+    color: #a9a2a2;
+    font-size: 16px!important;
+    font-weight: 500!important;
+  }
+  .active{
+    color: #212529!important;
+  }
+  .bg-white{
+    background-color: white;
+  }
+  .navbar {
+    form button {
+      background: #f8bc00;
+  color: #fff;
+  border-color: #f56f5e;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  padding: 19px 37px;
+  border: 1px solid;
+  border-radius: 5px;
+  }
+  }
+  .navbar.navbar-dark .navbar-toggler-icon {
+    background-image: url("./assets/images/toggler.svg");
+    cursor: pointer;
+  }
+  .wallpaper {
+    background-image: url("./assets/images/white.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    mdb-carousel-item {
+      width: 100%;
+      height: 500px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  }
+  .quotes{
+    font-size: 54px;
+    font-weight: 700;
+    color: #18407c;
+    line-height: 1.2;
+    text-align: center;
+}
+.kesri {
+   color: $keseri!important; 
+}
+.owl-theme .owl-nav [class*=owl-]:hover {
+  background: #18407C;
+  color: white;
+  text-decoration: none;
+}
+.owl-theme .owl-nav {
+  margin-top: 50px;
+}
+.header{
+  display: flex;
+  align-items: center;
+  height: 30px;
+  margin-bottom: 0px;
+  hr {
+      margin: 0px;
+      width: 151px;
+      border-bottom: 2px solid #f8bc00;
+  }
+  .title{
+      margin-left: 5px;
+      font-size: 19px;
+      font-weight: 500;
+      color: #222222;
+  }
+}
+.sub-header{
+  font-size: 53px;
+  font-weight: 600;
+  color: #18407c;
+}
+.header-detail{
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.header-bar{
+  display: flex;
+
+  .cantact-text{
+      height: 400px;
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .khanda{
+      background-color: #18407c;
+      border-bottom-right-radius: 100px;
+      height: 400px;
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+  }
+}
+

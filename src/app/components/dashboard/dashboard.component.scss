@@ -1,0 +1,384 @@
+.content{
+    float: left;
+    width: 80%;
+}
+.rightbar{
+    float: left;
+}
+
+.content-header label {
+    margin-top: 0!important;
+}
+.fav {
+    i{
+        font-size: 18px;
+    }
+    span{
+        font-size: 19px;
+    }
+    p{
+        color: #58666e;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+.bline{
+    hr{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+    width: 100%;
+}
+}
+.rightbar{
+    background-color: #f5f8f9;
+    .side-content{
+        padding-top: 15px;
+    }
+}
+.title{
+    i{
+        font-size: 18px;
+    }
+    span{
+        font-size: 19px;
+        font-weight: 400;
+    }
+    p{
+        color: #58666e;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    ul {
+        padding-inline-start: 0px;
+        li {
+            color: #58666e;
+            font-size: 14px;
+            line-height: 1.7;
+            i{
+                color: #58666e;  
+            }
+        }
+    }
+}
+.activity{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-right: 40px;
+    background-color: white;
+    .user-circle{
+        font-size: 16px;
+        height: 50px;
+        width: 50px;
+        background-color: #0096d1;
+        font-weight: 500;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        margin-right: 17px;
+        position: relative;
+    }
+  }
+.name{
+    color: #000;
+    font-weight: 500;
+    cursor: pointer;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+
+.schedule{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    line-height: .7;
+    margin-top: 150px;
+    .text {
+        width: 40%;
+        padding: 0px 70px;
+        margin-top: 90px;
+    }
+    .image{
+    // background-image: url("./assets/images/timing.jpg");
+    background-image: url("../../../assets/images/GT.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 460px;
+     width: 60%;
+     border-bottom-right-radius: 100px;
+     border-top-left-radius: 100px;
+    }
+}
+
+.details {
+    margin-top: 30px;
+    .heading{
+        font-size: 20px;
+        font-weight: 500;
+        color: #18407c;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    ul {
+        // margin-block-start: 0!important;
+        padding-inline-start: 0px;
+        list-style-type: none;
+        li {
+          display: flex;
+          align-items: center;
+          font-size: 17px;
+          color: #222222;
+          margin-bottom: 7px;
+          .name {
+              font-weight: 600;
+              margin-right: 6px;
+          }
+          i{
+              color: #f8bc00;
+          }
+        }
+    }
+}
+
+
+.langer-section{
+    width: 100%;
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    .langer-bg{
+        background-color: #18407c;
+        width: 50%;
+    }
+    .langer-image{
+        background-image: url("../../../assets/images/langar_5.jpg");
+        height: 501px;
+        background-repeat: no-repeat;
+         background-size: cover;
+         border-top-right-radius: 150px;
+    }
+    .lager-details {
+        background-color: #18407c;
+        width: 50%;
+        height: 500px;
+        padding: 30px 25px;
+        padding-bottom: 0px;
+        line-height: .6;
+        .header{
+            display: flex;
+            align-items: center;
+            height: 30px;
+            margin-bottom: 7px;
+            hr {
+                margin: 0px;
+                width: 220px;
+                border-bottom: 2px solid #f8bc00;
+            }
+            .title{
+                margin-left: 5px;
+                font-size: 19px;
+                font-weight: 500;
+                color: white;
+            }
+        }
+        .sub-header{
+            font-size: 53px;
+            font-weight: 600;
+            color: white;
+            margin-bottom: 30px;
+        }
+.text{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    line-height: 1.5em;
+}
+    }
+}
+.services{
+    padding: 0px 4%;
+    .slide {
+        margin-right: 15px;
+    }
+}
+
+.lab{
+    border-bottom-right-radius: 100px;
+    background-image: url("../../../assets/images/Lab2.jpg"); 
+}
+.dental{
+    border-top-left-radius: 100px;
+    background-image: url("../../../assets/images/detanl.png"); 
+}
+.vaccination{
+    border-bottom-left-radius: 100px;
+    background-image: url("../../../assets/images/vaccination-spl.jpg"); 
+}
+.clothes {
+    border-bottom-right-radius: 100px;
+    background-image: url("../../../assets/images/clothes.jpg"); 
+}
+.freezer {
+    border-top-left-radius: 100px;
+    background-image: url("../../../assets/images/body-freezer.jpg"); 
+}
+.residence{
+    border-bottom-left-radius: 100px;
+    background-image: url("../../../assets/images/hall.jpg"); 
+}
+.carousel{
+    margin-left: 15px;
+}
+.slide{
+    img {
+        height: calc(100vh - 110px);
+    }
+    .img-div {
+        width: 100%;
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .slide-header {
+        margin-top: 20px;
+       font-size: 26px;
+       &:after {
+        content: ' ';
+        margin-top: 5px;
+        display: block;
+        border-style: solid;
+        border-width: 0 0 2px;
+        border-color: #18407c;
+        width: 2.5rem;
+       }
+    }
+    
+    .time{
+        font-weight: 600;
+    }
+}
+.detail-text{
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+.heder-area{
+    text-align: center;
+    font-size: 40px;
+    color: #18407c;
+    font-weight: 700;
+    margin-bottom: 70px;
+}
+
+.sewa{
+    margin-top: 70px;
+    height: 435px;
+    background-color: #18407c;
+    .white{
+        height: 100px;
+        background-color: white;
+        border-bottom-right-radius: 95px;
+    }
+    .pankti{
+        font-family: 'gurbaniakharheavyregular';
+        text-align: center;
+        font-size: 50px;
+        padding: 30px 0px;
+        padding-bottom: 0px;
+        color: white;
+        line-height: .8;
+        span {
+            font-family: "PT Serif",Arial,Helvetica,sans-serif;
+            font-size: 24px;
+            color: #f8bc00;
+        }
+    }
+}
+.donation-section {
+margin: 150px 0px;
+.detail-text{
+    padding: 0px 20px;
+}
+.donation-box {
+    position: relative;
+    width: 100%;
+    border-radius: 0 2.5em;
+    box-shadow: 0 20px 75px rgba(0,0,0,.1);
+    background-color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    margin-top: 20px;
+    height: 300px;
+    .header-text{
+        padding: 15px;
+        font-size: 18px;
+    }
+    .title {
+        color: #022147;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 30px;
+        width: 100%;
+        border-bottom: 1px solid lightgray;
+        padding: 10px 20px;
+    }
+}
+.icon-circle{
+    position: absolute;
+    top: -30px;
+    left: 20px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: #f8bc00;
+    display: flex;
+    justify-content: center;
+    img {
+        margin-top: 10px;
+        height: 60px;
+        width: 60px;
+    }
+}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) { 
+    .slide img {
+      height: calc(100vh - 767px);
+  }
+  .schedule {
+    .text {
+    width: 45%;
+  }
+  .image{
+    width: 55%;
+  }
+  }
+  .langer-section .lager-details .sub-header {
+    font-size: 51px;
+  }
+  .langer-section .lager-details .text {
+    font-size: 16px;
+  }
+  .sub-header {
+    font-size: 51px;
+  }
+  
+  .detail-text {
+  font-size: 17px;
+  }
+  
+.donation-section .donation-box {
+    height: 273px;
+}
+.gap{
+    margin-top: 25px;
+}
+  }
+  

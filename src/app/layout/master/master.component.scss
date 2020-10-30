@@ -1,0 +1,79 @@
+
+
+.uppernav{
+    background-color: #262626;
+       .contacts {
+           display: flex;
+           align-items: center;
+           justify-content: space-between;
+           height: 35px;
+           color: #c7c6c6;
+           font-size: 14px;
+           font-weight: 500;
+       }
+       .info {
+           display: flex;
+           align-items: center;
+           .mail{
+               display: flex;
+               align-items: center;
+           }
+       }
+   }
+
+   .logo img {
+    width: 250px;
+    height: auto;
+}
+
+
+footer {
+    background-color: #18407c;
+    padding: 40px 0px;
+    line-height: 1.5;
+    .logo-footer img {
+        width: 250px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .location {
+        font-size: 15px;
+         margin-top: 6px;
+        color: #F3F3F3;
+        display: flex;
+        align-items: center;
+    }
+    .side-border{
+        border-right: 1px solid #F3F3F3;
+    }
+    .links-header {
+        color:#F3F3F3;
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 15px;
+        hr {
+            margin: 0px;
+            margin-right: 5px;
+            width: 40px;
+            border-bottom: 2px solid #F8BC00!important;
+        }
+    }
+    .inner-padding{
+        padding: 0px 20px;
+    }
+    .link-item{
+        color:#F3F3F3;
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    .gallery {
+        display: flex;
+        .box img {
+            height: 80px;
+            width: 100px;
+            margin-right: 7px;
+        }
+    }
+}
