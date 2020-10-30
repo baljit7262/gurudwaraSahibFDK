@@ -46,6 +46,14 @@ const routes: Routes = [
         (m) => m.GalleryModule
       ),
   },
+  {
+    path: 'donate',
+    component: MasterComponent,
+    loadChildren: () =>
+      import('./components/donate/_module').then(
+        (m) => m.DonateModule
+      ),
+  },
 ]
 
 @NgModule({
